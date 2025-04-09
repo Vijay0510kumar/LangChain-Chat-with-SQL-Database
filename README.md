@@ -1,8 +1,8 @@
 #### 🦜 LangChain: Chat with SQL Database
-## 📌 Overview
+##  Overview
 This Streamlit web application allows users to interact with an SQLite or MySQL database using LangChain and Groq's Llama3-8b-8192 model. Users can input natural language queries, and the application will generate and execute the corresponding SQL commands.
 
-## 🚀 Features
+##  Features
 Chat with SQL Database: Query your database in natural language.
 
 Supports SQLite and MySQL: Choose between a local SQLite database or connect to a remote MySQL database.
@@ -13,7 +13,7 @@ LLM-Powered Query Processing: Uses Groq's Llama3-8b-8192 for natural language to
 
 Secure API Key Input: Users must provide a Groq API Key to use the chatbot.
 
-## 🏗️ Tech Stack
+##  Tech Stack
 Python
 
 Streamlit
@@ -25,3 +25,6 @@ SQLAlchemy
 SQLite / MySQL
 
 Groq LLM
+
+<img width="887" alt="SQLChatbot" src="https://github.com/user-attachments/assets/a32e5cc0-2426-42c2-9d8a-036d49a036c0" />
+
