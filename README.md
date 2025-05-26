@@ -68,5 +68,6 @@ This tool is ideal for:
 - **Groq LLM (Llama3-8b-8192)**
 
 ---
+![WhatsApp Image 2025-05-26 at 21 30 01_b076b9e1](https://github.com/user-attachments/assets/e0933f87-2136-4e37-bd04-d064335a58b2)
 
 
