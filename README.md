@@ -68,5 +68,5 @@ This tool is ideal for:
 - **Groq LLM (Llama3-8b-8192)**
 
 ---
-![Uploading SQL_chatbot.jpg…]()
+
 
