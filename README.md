@@ -1,4 +1,4 @@
-#  LangChain SQL Chatbot — Natural Language to SQL
+# 🦜 LangChain SQL Chatbot — Natural Language to SQL
 
 A Streamlit-based AI chatbot that allows users to interact with structured SQL databases using natural language queries. It leverages **LangChain** with **Groq's Llama3-8b-8192** model to convert natural language into SQL statements and retrieve data seamlessly from **SQLite** or **MySQL** databases.
 
