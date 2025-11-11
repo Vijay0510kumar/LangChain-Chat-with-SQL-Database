@@ -2,12 +2,13 @@ import streamlit as st
 from pathlib import Path
 from langchain_community.agent_toolkits.sql.base import create_sql_agent
 from langchain_community.utilities import SQLDatabase
-from langchain.agents.agent_types import AgentType
+from langchain.agents import AgentType   # ✅ updated import
 from langchain_community.callbacks.streamlit import StreamlitCallbackHandler
 from langchain_community.agent_toolkits.sql.toolkit import SQLDatabaseToolkit
 from sqlalchemy import create_engine
 import sqlite3
 from langchain_groq import ChatGroq
+
 
 # -------------------- Streamlit Page Setup -------------------- #
 st.set_page_config(page_title="LangChain: Chat with SQL DB", page_icon="🦜")
@@ -109,3 +110,4 @@ if user_query:
             st.write(response)
         except Exception as e:
             st.error(f"❌ Error processing query: {str(e)}")
+
